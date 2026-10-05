@@ -16,5 +16,10 @@ Key features of the implementation:
 ### Current Project Status
 This repository serves as a **Research Proof-of-Concept**. At this stage, the algorithm demonstrates 100% Bit-Perfect convergence within an ideal software-simulated environment. It is designed strictly as a mathematical and algorithmic simulation and does not contain advanced error-correction mechanisms (such as CRC or ARQ) required for noisy, real-world physical networks.
 
+### How to Run
+1. Clone the repository and build the project using CMake in **Release** configuration.
+2. Place any sufficiently large binary file (recommended size: > 10 MB to allow OpenMP multi-threading to scale effectively) named `test.bin` into the target executable directory.
+3. Execute the `rabbit_simulator` binary to view the performance and integrity report.
+
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
