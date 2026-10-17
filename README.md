@@ -22,4 +22,8 @@ This repository serves as a **Research Proof-of-Concept**. At this stage, the al
 3. Execute the `rabbit_simulator` binary to view the performance and integrity report.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is dual-licensed to balance open scientific collaboration with proprietary commercial protection:
+1. Open Source & Academic Use: The source code is published under the standard GNU GPLv3 license (see the LICENSE file). It is fully open for academic research, independent auditing, and non-commercial development. Anyone using or modifying this code under GPLv3 must keep their derived works open-source under the same license terms.
+2. Commercial Use: Integrating, copying, or implementing the core logical principles, hardware architectures, waveform encoding schemes, or source code of this technology into closed-source commercial or proprietary products (including custom physical layer transceivers, network interface controllers, or hardware communication intellectual property) is strictly prohibited under the GPLv3 terms (as it legally requires disclosing your proprietary source code).
+Commercial deployment or proprietary implementation of the Rabbit Protocol technology is permissible solely upon executing a Private Commercial Agreement with the copyright holder.
